@@ -25,4 +25,4 @@ print(공간2)
 과목명 = '파이썬'
 print('안녕 '+과목명 +'!')
 print('오늘은 '+ 과목명 +' 공부 첫 날 입니다.')
-print('hello '+과목명)
+print('hello '+과목명)  # git remote add origin
