@@ -10,16 +10,16 @@
 
 
 
-i = int(input('얼만큼 안녕한가요?'))
-b = 1
-while b < i + 1:
-    print(b,'번째','hello')
-    b += 1
-print('이만큼 안녕하다니...')
+# i = int(input('얼만큼 안녕한가요?'))
+# b = 1
+# while b < i + 1:
+#     print(b,'번째','hello')
+#     b += 1
+# print('이만큼 안녕하다니...')
 
 
 
-i = int(input('1~100 중에 아무숫자나 적으시오.'))
+# i = int(input('1~100 중에 아무숫자나 적으시오.'))
 
 
 
