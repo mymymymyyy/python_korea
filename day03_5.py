@@ -30,12 +30,20 @@ for i in range(1,13):
 
 월 = int(input('1~12월중에서 아무 월이나 입력하세요>>'))
 for i in range(1,월):
-    print(i,'월')
+    print(i,'월',end=(' '))
 print()
 
 
+break_month = int(input('몇 월부터 스킵할까요??>>'))
+for i in range(1,13):
+    if i == break_month:
+        break
+    print(i,'월',end=(' '))
 
 
+for i in range(1,10):
+    for j in range(2,10):
+        print(j,'x',i,'=',i*j, end='\t')
 
 
 
@@ -50,4 +58,4 @@ print()
 # 리스트(list) : 같은 주제의 변수들을 묶음으로 보관 (전체 출력이 가능)
 리스트 = [10,15,12,11,22,33,44,55,66]
 for i in 리스트:
-    print(i, '명')
+    print(i, '명',end=(' '))
